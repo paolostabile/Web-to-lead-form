@@ -1,0 +1,68 @@
+body {
+  /*background-color: green;*/
+  background: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+}
+
+legend {
+  color: white;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+img {
+  width: 300px;
+}
+
+.container-fluid {
+  border-color: transparent;
+  color: white;
+  background-color: transparent;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0;
+}
+
+.panel {
+  /**/
+  background-color: rgba(0, 200, 255, 0.2);
+  border: 0;
+}
+
+.panel-body {
+  color: white;
+  /*color: black;*/
+}
+
+.panel-default > .panel-heading {
+  background-color: transparent;
+  color: white;
+  /*color: black;*/
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: none;
+}
+
+textarea {
+  resize: none;
+}
+
+a:-webkit-any-link {
+  cursor: default;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    max-width: 550px;
+  }
+}
